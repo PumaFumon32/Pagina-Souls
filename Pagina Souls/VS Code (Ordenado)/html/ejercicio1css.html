@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smr2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url(/Imagenes/fonfo.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #ffffff;
+            font-family: 'Roboto', sans-serif;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            backdrop-filter: blur(6px);
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            margin-bottom: 0.5em;
+            text-align: center;
+            color: #f2f2f2;
+        }
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 500;
+            margin-bottom: 1em;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        p {
+            max-width: 800px;
+            line-height: 1.6;
+            font-size: 1.2rem;
+            margin: 20px 0;
+            text-align: justify;
+            padding: 0 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+        }
+
+        a {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1.1rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.3s;
+            margin: 10px;
+        }
+
+        a:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 3rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+                padding: 15px;
+            }
+        }
+
+            .animacion {
+                text-decoration: none; 
+                color: blue;
+                font-size: 18px;
+                display: inline-block; 
+                transition: color 0.3s ease; 
+                padding: 12px 20px;
+                text-align: center;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+                margin-top: 20px;
+
+                
+             }
+             @keyframes bounce {
+                0%, 100% {
+                  transform: translateY(0);
+                }
+                50% {
+                  transform: translateY(-10px); 
+                }
+            }
+            .animacion:hover {
+                animation: bounce 0.5s ease; 
+                color: red; 
+            }
+    </style>
+    
+</head>
+<body>
+    <h1>La saga souls</h1>
+        <h2>¿Qué juegos hay?</h2>
+    
+    
+            <h3>Demon Souls</h3>
+                <p>El primer juego de la saga fue <cite>Demon Souls</cite>, lanzado para PlayStation 3 en 2009. Este título es conocido por haber sentado las bases de la jugabilidad
+                característica de los juegos Souls, con su dificultad elevada, combate metódico y un profundo sistema de personalización de personajes. En 2020, se lanzó un remake 
+                para PlayStation 5, mejorando los gráficos y ajustando algunos aspectos de la jugabilidad, sin perder la esencia del original.</p>
+                    <img src="/Imagenes/demons.jpg" alt="Demon Souls" width="500" height="350">
+    
+    
+            <h3>Dark Souls Trilogy</h3>
+                <p>La trilogía de <cite>Dark Souls</cite> empezó con Dark Souls 1 en 2011, un juego que revolucionó la industria de los videojuegos por su dificultad desafiante y su profundo
+                diseño de niveles interconectados. <cite>Dark Souls 2</cite> llegó en 2014, aunque no fue tan bien recibido debido a varios cambios en el diseño y la narrativa. Finalmente,
+                <cite>Dark Souls 3</cite> (2016) cerró la saga, mezclando la jugabilidad clásica del primero con algunas mejoras gráficas y de combate, siendo aclamado como un digno final para la serie.</p>
+                    <img src="/Imagenes/maxresdefault.jpg" alt="Dark Souls" width="500" height="350">
+    
+    
+            <h3>Bloodborne</h3>
+                <p>Lanzado en 2015, <cite>Bloodborne</cite> fue una exclusiva de PlayStation 4. A diferencia de los juegos de fantasía medieval, Bloodborne introdujo una ambientación gótica victoriana y un sistema
+                 de combate más agresivo y rápido. Los jugadores se enfrentan a horrores cósmicos y criaturas inspiradas en la obra de H.P. Lovecraft, con una narrativa críptica y un diseño de niveles que sigue
+                 el legado de los títulos anteriores de FromSoftware.</p>
+                     <img src="/Imagenes/blood.jpeg" alt="Bloodborne" width="500" height="350">
+    
+    
+             <h3>Sekiro: Shadows Die Twice</h3>
+                 <p>En 2019, FromSoftware lanzó <cite>Sekiro: Shadows Die Twice</cite>, un juego que introdujo un enfoque más narrativo. Ambientado en el Japón feudal, Sekiro tiene un sistema de combate basado en la
+                 precisión y la parry, alejándose del estilo de personalización de los anteriores juegos Souls. La historia es más accesible, siguiendo al shinobi lobo en su búsqueda para rescatar a su maestro y enfrentarse
+                 a enemigos míticos.</p>
+                    <img src="/Imagenes/sekiro.jpg" alt="Sekiro: Shadows Die Twice" width="500" height="350">
+    
+    
+            <h3>Elden Ring</h3>
+                <p>Finalmente, en 2022, FromSoftware lanzó <cite>Elden Ring</cite>, un juego que vuelve a la fantasía medieval, pero con un diseño de mundo abierto. Este título colaboró con el autor George R. R. Martin, 
+                lo que ayudó a darle profundidad a la historia y a la construcción del mundo. Elden Ring se caracteriza por ofrecer una experiencia de exploración sin precedentes en la serie, manteniendo la dificultad
+                y el combate característicos de la saga Souls.</p>
+                    <img src="/Imagenes/elden.jpg" alt="Elden Ring" width="500" height="350">
+    
+                    <a href="https://blogking.elpozo-king.com/news/saga-souls-videojuegos-from-software" class="animacion">Si quieres más información, haz clic aquí.</a>
+
+                    <a href="/html/darkspuls1.html" class="animacion">Dark Souls 1</a>
+
+                    <a href="/html/Dark souls 2.html" class="animacion">Dark Souls 2</a>
+
+                     <br><br><br>
+</body>
+</html>
