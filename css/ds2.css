@@ -38,7 +38,7 @@ img:hover {
     }
 }
 body {
-    background-image: url(fonfo.jpg);
+    background-image: url(/Imagenes/fonfo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
